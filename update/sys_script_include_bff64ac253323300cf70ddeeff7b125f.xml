@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_plswork.hello</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>hello</name>
+        <script><![CDATA[var hello = Class.create();
+hello.prototype = {
+    initialize: function() {
+    },
+
+    type: 'hello'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>anjana</sys_created_by>
+        <sys_created_on>2019-07-23 22:37:41</sys_created_on>
+        <sys_id>bff64ac253323300cf70ddeeff7b125f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hello</sys_name>
+        <sys_package display_value="plswork" source="sn_plswork">2fe1644e53323300cf70ddeeff7b120e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="plswork">2fe1644e53323300cf70ddeeff7b120e</sys_scope>
+        <sys_update_name>sys_script_include_bff64ac253323300cf70ddeeff7b125f</sys_update_name>
+        <sys_updated_by>anjana</sys_updated_by>
+        <sys_updated_on>2019-07-23 22:37:41</sys_updated_on>
+    </sys_script_include>
+</record_update>
